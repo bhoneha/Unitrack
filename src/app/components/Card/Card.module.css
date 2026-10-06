@@ -1,0 +1,32 @@
+.card{
+  display: inline-block;
+  max-width: 300px;
+  min-width: 250px;
+
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #5e5e5e;
+  padding: 20px;
+  margin: 10px;
+
+  text-align: center;
+}
+
+.card .card_image{
+  max-width: 60%;
+  min-width: 50%;
+  height: auto;
+
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card_title{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.839);
+} 
+
+.card .card_description{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(55, 55, 55, 0.839);
+}
